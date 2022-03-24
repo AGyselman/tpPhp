@@ -85,14 +85,71 @@
 // }
 // echo article($prixHt,$nbArticle,$tauxTva);
 
-function nombre($a) {
-if($a >= 0)
-{
-    echo "le chiffre est positif";
-} else {
-    echo "le chiffre est négatif";
-}
-}
-echo nombre(-2);
+// function nombre($a) {
+// if($a >= 0)
+// {
+//     echo "le chiffre est positif";
+// } else {
+//     echo "le chiffre est négatif";
+// }
+// }
+// echo nombre(-2);
+
+
+    // function plusGrand($nbr1, $nbr2, $nbr3){
+    //     if($nbr1>$nbr2 AND $nbr1>$nbr3){
+    //         echo "$nbr1 est le plus grand des 3";
+    //     }
+    //     else if($nbr2>$nbr3){
+    //         echo "$nbr2 est le plus grand des 3";
+    //     }
+    //     else{
+    //         echo "$nbr3 est le plus grand des 3";
+    //     }
+    // }
+    // function plusPetit($nbr1, $nbr2, $nbr3){
+    //     if($nbr1<$nbr2 AND $nbr1<$nbr3){
+    //         echo "$nbr1 est le plus petit des 3";
+    //     }
+    //     else if($nbr2<$nbr3){
+    //         echo "$nbr2 est le plus petit des 3";
+    //     }
+    //     else{
+    //         echo "$nbr3 est le plus petit des 3";
+    //     }
+    // }
+    // function moyenne($nbr1, $nbr2, $nbr3){
+    //     return ($nbr1+$nbr2+$nbr3)/3;
+    // }
+    // plusGrand(14,16,18);
+    // echo '<br>';
+    // plusPetit(14,16,18); 
+    // echo '<br>';
+    // echo 'la moyenne est égale à : '.moyenne(14,25,53).'';
+
+    // EXO 4
+
+    function jeSaisPas ($age)
+    {
+        switch ($age) {
+            case $age>=6 and $age<=7:
+                echo "est un poussin";
+                break;
+            case $age>=8 and $age<=9:
+                echo "est un pupille";
+                break;
+            case $age>=10 and $age<=11:
+                echo "est un minime";
+                break;    
+            case $age>=12:
+                echo "est un cadet";
+                break;     
+            default:
+            echo "est trop jeune";
+            break;        
+        }
+
+    }
+jeSaisPas(5);
 ?>
 
