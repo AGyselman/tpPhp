@@ -29,6 +29,8 @@
 ?> 
 
 <?php
+
+// EXO 2
     $a = 5;
     $b = 3;
     $c = $a + $b;
@@ -42,5 +44,16 @@
     echo "$a<br>";
     echo "$b<br>"; 
     echo "$c<br>"; 
+
+// EXO 3
+
+    $a = 15;
+    $b = 23;
+    $c = $a;
+    $a = $b;
+    $b = $c;
+    echo "$a<br>";
+    echo "$b<br>";
+
 ?>
 
